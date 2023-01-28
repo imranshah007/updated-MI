@@ -1,0 +1,98 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #0e1023;
+  color: #e7e9f0;
+  font-family:Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+
+.card-container {
+  display: flex;
+  padding: 8px 10px;
+  border-radius: 5px;
+  color: #e7e9f0;
+  margin: 10px 15px;
+  min-width: 73px;
+  box-shadow: 0px 0px 5px rgba(248, 143, 143, 0.1);
+  background: #272c4d;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 13px;
+}
+.Text:focus {
+  outline: rgb(4, 4, 178);
+}
+.Text {
+  padding: 20px 23px;
+  font-size: 25px;
+  border-width: 0;
+  background: #9f8bf0;
+  color: #e7e9f0;
+  width: 350px;
+  border-radius: 78px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+.Text::placeholder {
+  color: white;
+}
+.view-p {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+}
+.para {
+  margin: 0;
+  font-weight: 100;
+}
+.para:hover {
+  background: #3f4469;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 60px;
+}
+
+.image {
+	width: auto;
+	transition: max-width 1s, min-width 1.5s;
+}
+
+.image-width {
+	min-width: 300px;
+	max-width: 280px;
+}
+
+.image-res {
+	min-width: 100px;
+	max-width: 120px;
+}
+
+.text {
+	font-family: 'Hachi Maru Pop', cursive;
+	margin: 5px 0 15px 0;
+}
